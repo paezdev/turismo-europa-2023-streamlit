@@ -23,7 +23,6 @@ Este proyecto analiza las tendencias de viajes turísticos en Europa durante el 
 - **Looker Studio** (dashboard interactivo y visualización ejecutiva)
 - **Streamlit** (opcional, para prototipos de dashboard web)
 
-
 ---
 
 ## 4. Análisis Exploratorio y Visualizaciones (Google Colab)
@@ -62,7 +61,10 @@ entrega 3: https://turismo-europa-2023.streamlit.app/
 entrega 4: https://turismo-europa-2023-entrega4.streamlit.app/
 
 Y el notebook en colab:
+
 Colab: https://colab.research.google.com/drive/1-HHkuL-RTBmxVrQPN3dyU7qtHz70YiDO?usp=sharing
+
+
 ---
 
 ## 6. Cómo Ejecutar el Proyecto Localmente (opcional: Streamlit)
