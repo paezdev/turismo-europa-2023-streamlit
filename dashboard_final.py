@@ -59,7 +59,10 @@ with col1:
         locationmode="country names",
         color="Viajes",
         color_continuous_scale="Blues",
-        title="Cantidad de viajes por país"
+        title="Cantidad de viajes por país",
+        height=900,
+        width=1600,
+        projection="natural earth"
     )
     # Ajustar el scope para centrar en Europa
     fig_map.update_geos(
