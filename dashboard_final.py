@@ -2,8 +2,14 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-# Cargar datos
-df = pd.read_csv('Anexo EA4_Tourist_Travel_Europe.csv')
+# Función para cargar los datos
+@st.cache_data
+def load_data():
+    df = pd.read_csv("data/Anexo EA4_Tourist_Travel_Europe.csv")
+    return df
+
+# Cargar los datos
+df = load_data()
 
 st.set_page_config(page_title="Dashboard Turismo Europa", layout="wide")
 
