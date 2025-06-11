@@ -61,6 +61,12 @@ with col1:
         color_continuous_scale="Blues",
         title="Cantidad de viajes por país"
     )
+    # Ajustar el scope para centrar en Europa
+    fig_map.update_geos(
+        scope='europe',
+        showcountries=True,
+        countrycolor="Black"
+    )
     st.plotly_chart(fig_map, use_container_width=True)
 
 with col2:
