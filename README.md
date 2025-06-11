@@ -28,6 +28,13 @@ En streamlit cloud hice las siguientes visualizaciones:
 entrega 3: https://turismo-europa-2023.streamlit.app/
 entrega 4: https://turismo-europa-2023-entrega4.streamlit.app/
 
+La visualización de la entrega 4 la hice en el siguiente:
+Lokker studio: https://lookerstudio.google.com/reporting/643c25df-5ef6-4d1b-828a-4fbbda6b13b9
+
+Y el notebook en colab:
+Colab: https://colab.research.google.com/drive/1-HHkuL-RTBmxVrQPN3dyU7qtHz70YiDO?usp=sharing
+
+
 ---
 
 ## 4. Análisis Exploratorio y Visualizaciones (Google Colab)
