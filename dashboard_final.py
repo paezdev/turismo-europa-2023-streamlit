@@ -59,7 +59,6 @@ with col1:
         locationmode="country names",
         color="Viajes",
         color_continuous_scale="Blues",
-        title="Cantidad de viajes por país",
         height=600,
         projection="natural earth"
     )
