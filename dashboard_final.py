@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
+st.set_page_config(page_title="Dashboard Turismo Europa", layout="wide")
+
 # Función para cargar los datos
 @st.cache_data
 def load_data():
@@ -10,8 +12,6 @@ def load_data():
 
 # Cargar los datos
 df = load_data()
-
-st.set_page_config(page_title="Dashboard Turismo Europa", layout="wide")
 
 # Título y descripción
 st.title("🌍 Análisis de Viajes Turísticos en Europa")
