@@ -23,6 +23,11 @@ Este proyecto analiza las tendencias de viajes turísticos en Europa durante el 
 - **Looker Studio** (dashboard interactivo y visualización ejecutiva)
 - **Streamlit** (opcional, para prototipos de dashboard web)
 
+En streamlit cloud hice las siguientes visualizaciones: 
+
+entrega 3: https://turismo-europa-2023.streamlit.app/
+entrega 4: https://turismo-europa-2023-entrega4.streamlit.app/
+
 ---
 
 ## 4. Análisis Exploratorio y Visualizaciones (Google Colab)
