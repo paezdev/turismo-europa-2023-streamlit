@@ -61,16 +61,14 @@ with col1:
         color_continuous_scale="Blues",
         title="Cantidad de viajes por país",
         height=600,
-        width=1000,
         projection="natural earth"
     )
-    # Ajustar el scope para centrar en Europa
     fig_map.update_geos(
         scope='europe',
         showcountries=True,
         countrycolor="Black"
     )
-    st.plotly_chart(fig_map, use_container_width=False)
+    st.plotly_chart(fig_map, use_container_width=True)
 
 with col2:
     st.subheader("🏆 Países más visitados")
